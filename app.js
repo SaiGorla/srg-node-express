@@ -44,6 +44,11 @@ app.get('/about', (req, res) => {
 
   })
 
+app.get('/help/:topic/details',(req,res)=> {
+
+    res.send('details are required for help')
+
+})
   
 
 
